@@ -39,10 +39,17 @@ function AutoTwitchChat() {
         
             <h1>Auto Twitch Chat Mini</h1>
             <h4 style={{opacity:'60%',marginTop:'-30px'}}> Create a twitch chat message graphic!</h4>
-
+            
+            Username
             <input type="text" value={username} onChange={e => setUsername(e.target.value)} />
+            
+            Username Color 
             <input type="color" value={usernameColor} onChange={e => setUsernameColor(e.target.value)} />
+            
+            Message
             <textarea value={message} onChange={e => setMessage(e.target.value)} maxLength={500}></textarea>
+            
+            Font
             <select value={font} onChange={e => setFont(e.target.value)} style={{ fontFamily: font === "Roboto" ? "Roboto" : "inherit" }}>
                 <option value="Default" style={{ fontFamily: "inherit" }}>Default</option>
                 <option value="Roboto" style={{ fontFamily: "Roboto" }}>Roboto</option>
