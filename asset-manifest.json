@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/editor-tools/static/css/main.cfa666d2.css",
-    "main.js": "/editor-tools/static/js/main.1ce09948.js",
+    "main.js": "/editor-tools/static/js/main.8ac78769.js",
     "static/js/787.968513ac.chunk.js": "/editor-tools/static/js/787.968513ac.chunk.js",
     "static/media/GeneralSans.ttf": "/editor-tools/static/media/GeneralSans.6d91885b9c7fa66bdd05.ttf",
     "index.html": "/editor-tools/index.html",
     "main.cfa666d2.css.map": "/editor-tools/static/css/main.cfa666d2.css.map",
-    "main.1ce09948.js.map": "/editor-tools/static/js/main.1ce09948.js.map",
+    "main.8ac78769.js.map": "/editor-tools/static/js/main.8ac78769.js.map",
     "787.968513ac.chunk.js.map": "/editor-tools/static/js/787.968513ac.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cfa666d2.css",
-    "static/js/main.1ce09948.js"
+    "static/js/main.8ac78769.js"
   ]
 }
