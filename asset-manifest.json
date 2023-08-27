@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/editor-tools/static/css/main.cfa666d2.css",
-    "main.js": "/editor-tools/static/js/main.8ac78769.js",
-    "static/js/787.968513ac.chunk.js": "/editor-tools/static/js/787.968513ac.chunk.js",
-    "static/media/GeneralSans.ttf": "/editor-tools/static/media/GeneralSans.6d91885b9c7fa66bdd05.ttf",
-    "index.html": "/editor-tools/index.html",
-    "main.cfa666d2.css.map": "/editor-tools/static/css/main.cfa666d2.css.map",
-    "main.8ac78769.js.map": "/editor-tools/static/js/main.8ac78769.js.map",
-    "787.968513ac.chunk.js.map": "/editor-tools/static/js/787.968513ac.chunk.js.map"
+    "main.css": "/static/css/main.c34b0e42.css",
+    "main.js": "/static/js/main.8d2d96df.js",
+    "static/js/787.968513ac.chunk.js": "/static/js/787.968513ac.chunk.js",
+    "static/media/GeneralSans.ttf": "/static/media/GeneralSans.6d91885b9c7fa66bdd05.ttf",
+    "index.html": "/index.html",
+    "main.c34b0e42.css.map": "/static/css/main.c34b0e42.css.map",
+    "main.8d2d96df.js.map": "/static/js/main.8d2d96df.js.map",
+    "787.968513ac.chunk.js.map": "/static/js/787.968513ac.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cfa666d2.css",
-    "static/js/main.8ac78769.js"
+    "static/css/main.c34b0e42.css",
+    "static/js/main.8d2d96df.js"
   ]
 }
