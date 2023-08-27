@@ -12,9 +12,13 @@ function App() {
   return (
     
     <div className="App">
-      <h1>Homepage</h1>
+      <h1>Editor Tools</h1>
       <br />
-      <button onClick={handleButtonClick("/editor-tools/auto-twitch-chat")}>Go To AutoTwitchChat</button>
+      
+      Create Twitch Chat Message Graphics In Seconds
+      <br/><br/>
+      <button style={{fontSize:'15px'}} onClick={handleButtonClick("/editor-tools/auto-twitch-chat")}>AutoTwitchChat</button>
+      
     </div>
   );
 }

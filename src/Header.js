@@ -12,7 +12,12 @@ function Header() {
 
     return (
         <div>
-            <button onClick={handleButtonClick("/")}> Homepage </button>
+            <center>
+                <div style={{cursor:'pointer',backgroundColor:"black",color:'white',padding:'10px'}}>
+                    <div onClick={handleButtonClick("/")} style={{marginTop:'-15px',marginBottom:'-15px'}}><h3>👑 Editor Empire </h3></div> 
+                    <span onClick={handleButtonClick("/editor-tools/auto-twitch-chat/")}><u>AutoTwitchChat</u></span>
+                </div>
+            </center>
         </div>
     );
 }

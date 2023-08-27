@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 .App {
   text-align: center;
 }
@@ -36,3 +40,25 @@
     transform: rotate(360deg);
   }
 }
+
+
+input, textarea, select {
+  box-shadow: 3px 3px 0px 0 black;
+  border: black 3px solid;
+  border-radius: 6px;
+}
+
+
+button {
+  background-color: white;
+  border: black 3px solid;
+  border-radius: 6px;  
+  box-shadow: 3px 3px 0px 0 black;
+  transition: all 0.2s ease-in-out;
+}
+
+button:hover {
+  cursor: pointer;
+  box-shadow: 0px 0px 0px 0 black;
+}
+
