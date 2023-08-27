@@ -38,7 +38,7 @@ function AutoTwitchChat() {
 
         
             <h1>Auto Twitch Chat Mini</h1>
-            <h4 style={{opacity:'60%',marginTop:'-30px'}}> Create a twitch chat message graphic!</h4>
+            <h4 style={{opacity:'60%',marginTop:'-30px'}}>Twitch Chat Message Generator</h4>
             
             Username
             <input type="text" value={username} onChange={e => setUsername(e.target.value)} />

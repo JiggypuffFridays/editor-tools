@@ -12,7 +12,7 @@ function Header() {
 
     return (
         <div>
-            <button onClick={handleButtonClick("/editor-tools/")}> Homepage </button>
+            <button onClick={handleButtonClick("/")}> Homepage </button>
         </div>
     );
 }

@@ -15,7 +15,7 @@ root.render(
     <Router>      
       <Header/>
       <Routes>
-        <Route path="/editor-tools" element={<App />} />
+        <Route path="/" element={<App />} />
         <Route path="/editor-tools/auto-twitch-chat" element={<AutoTwitchChat />} />
       </Routes>
     </Router>
