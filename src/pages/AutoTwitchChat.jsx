@@ -43,7 +43,7 @@ function AutoTwitchChat() {
             </center>
 
             <div id="sideBySide" style={{display:'grid',gridTemplateColumns:'1fr 1fr', width:'45%',margin:'0 auto'}}>
-                <div style={{ display:'flex',flexDirection:'column', justifyContent:'center',alignItems:'center'}}>
+                <div style={{ display:'flex',flexDirection:'column', justifyContent:'center',alignItems:'center', border: '1px solid black'}}>
                     <b style={{paddingBottom:'5px'}}>Username</b>
                     <input type="text" value={username} onChange={e => setUsername(e.target.value)} style={{textAlign:"center"}}/>
                     <br/>
@@ -71,7 +71,7 @@ function AutoTwitchChat() {
 
 
                 <div style={{ display:'flex',flexDirection:'column', justifyContent:'center',alignItems:'center'}}>
-                    <div id="chatbox-preview" style={{ padding: '10', width: 'fit-content', fontFamily: font === "Roboto" ? "Roboto" : "inherit", userSelect: 'none'  }}>
+                    <div id="chatbox-preview" style={{padding: '10', width: 'fit-content', fontFamily: font === "Roboto" ? "Roboto" : "inherit", userSelect: 'none'  }}>
 
                         <div style={{backgroundColor:'#2a2a2a',padding:'10px',borderRadius:'15px',boxShadow: dropShadow ? '4px 4px 0px rgba(0, 0, 0, .25)' : 'none'}}>
                             <span style={{ color: usernameColor }}>{username}:</span>&nbsp;
